@@ -1,3 +1,14 @@
+# 0.6.1 (2026-08-05)
+
+## Bug fixes
+
+- Preserve native browser behavior for modified clicks, non-left clicks, and
+  links targeting new tabs or windows [#5]
+
+## Other
+
+- Update runtime and development dependencies
+
 # 0.6.0 (2025-02-06)
 
 ## Features
