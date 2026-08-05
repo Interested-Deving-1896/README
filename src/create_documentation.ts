@@ -2,7 +2,6 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { promisify } from "util";
-import { rimrafSync } from "rimraf";
 import AnchorChecker, { AnchorValidity } from "./anchor_checker.js";
 import createDocumentationPage from "./create_documentation_page.js";
 import generateHeaderHtml from "./generate_header_html.js";
@@ -52,7 +51,7 @@ export default async function createDocumentation(
   options: DocumentationCreationOptions = {},
 ): Promise<void> {
   if (options.clean === true) {
-    rimrafSync(baseOutDir);
+    fs.rmSync(baseOutDir, { recursive: true, force: true });
   }
 
   // Parse global configuration as well as local configurations
