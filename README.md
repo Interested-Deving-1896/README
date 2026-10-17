@@ -57,7 +57,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 |---|---|
 | [@peaBerberian](https://github.com/peaBerberian) | 77 |
 | [@Florent-Bouisset](https://github.com/Florent-Bouisset) | 12 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 3 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 4 |
 <!-- AI:end:contributors -->
 
 ## Origins
